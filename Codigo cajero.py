@@ -35,11 +35,11 @@ while True:
     try:
         seleccion = int(input(f'¿Usted quién es?: {str_nombre}\n105: SALIR\n'))
     except:
-        print('Selección inválida')
+        print('Selección inválida, siga intentando')
         continue
  
  
-    print('Ingresó una selección no válida')
+    print('Ingresó una selección no válida, siga intentando')
  
     
     seleccion_cliente = lista_nombres[seleccion]
@@ -67,4 +67,4 @@ while True:
     elif seleccion==105:
         break
     else:
-        print('Error: no seleccionó una opción válida')
+        print('Error: no seleccionó una opción válida, siga intentando')
